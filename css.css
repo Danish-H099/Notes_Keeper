@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 60vw;
+    margin: auto;
+    /* border: 1px dotted black; */
+}
+
+.container h2 {
+    font-size: 32px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.input-cnt .output-cnt {
+    width: 100%;
+    /* height: 600px; */
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+.input {
+    width: 95%;
+    height: 220px;
+    margin: 20px auto;
+    /* border: 1px dotted black; */
+}
+
+.input h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: px auto;
+
+}
+
+
+
+.form {
+    display: block;
+
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin: 10px auto;
+
+}
+
+button {
+    width: 90px;
+    height: 36px;
+    color: white;
+    background-color: rgb(50, 135, 188);
+    border-radius: 6px;
+    margin: 4px 0;
+    cursor: pointer;
+    border: none;
+}
+
+.notetxt {
+    font-weight: 300;
+    margin: 10px 0;
+
+}
+
+.output-cnt{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: left;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+
+.crd {
+    width: 220px;
+    /* height: 200px; */
+    border: 1px solid black;
+    padding: 12px;
+    margin: 5px;
+
+    /* margin: 6px; */
+}
+.crd h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 4px auto 8px;
+}
+
+.card p{
+    font-size: 14px;
+    /* font-weight: 700; */
+    padding: 14px;
+    margin: 14px auto;
+}
